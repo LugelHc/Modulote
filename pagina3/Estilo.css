@@ -7,33 +7,23 @@ body{
 	color: darkblue;
 	font-size: 25px;
 	text-align: center;
-
 }
 
 .sushi{
 	background: rgb(31, 190, 224);
 	margin: 50px;
 }
-
-.{
-	position: relative;
-	background: rgb(95, 95, 160);
-	width: 100%;
-	float: left;
-	padding: 20px 250px 20px 250px;
-}
-{
-	color: whitesmoke;
-	font-size: 20px;
-	text-align: center;
-	border: 5px solid black;
+a: hover h1{
+	text-decoration: none;
 }
 
 p{
 	color: rgb(0, 0, 0);
 }
 
-
+.arriba{
+	background-color: rgb(255, 255, 255);
+}
 @media (min-width: 992px){
 
 	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
@@ -80,7 +70,7 @@ p{
 
 }
 
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 769px) and (max-width: 991px){
 	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
 		
 		border: 1px solid black;
@@ -127,7 +117,7 @@ p{
 
 }
 
-@media (max-width: 767px){ 
+@media (max-width: 768px){ 
 	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{
 
 		border: 1px solid black;
